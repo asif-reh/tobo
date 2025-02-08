@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Tobacco Suppliers</title>
+    <meta name="description" content="Indian Tobacco Suppliers - Premium Quality Tobacco Products sourced from the finest farms across India.">
+    <meta name="keywords" content="Indian Tobacco Suppliers, Tobacco Products, Premium Quality Tobacco, Tobacco Leaves, Tobacco Bundles, Tobacco Farm">
+    <meta name="author" content="Indian Tobacco Suppliers">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans">
+    <div class="background-3d"></div>
+    <div class="content">
+        <!-- Header Section -->
+        <header class="bg-green-700 text-white py-4 sticky top-0 z-50 shadow-md">
+            <div class="container mx-auto flex justify-between items-center px-4">
+                <h1 class="text-2xl font-bold"><a href="#" class="hover:underline">Indian Tobacco Suppliers</a></h1>
+                <nav>
+                    <a href="#about" class="hover:underline">About Us</a>
+                    <a href="#products" class="hover:underline">Products</a>
+                    <a href="#contact" class="hover:underline">Contact</a>
+                </nav>
+                <div class="md:hidden">
+                    <button id="menu-btn" class="text-white focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div id="mobile-menu" class="hidden md:hidden">
+                <ul class="flex flex-col space-y-4 mt-4">
+                    <li><a href="#about" class="hover:underline">About Us</a></li>
+                    <li><a href="#products" class="hover:underline">Products</a></li>
+                    <li><a href="#contact" class="hover:underline">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="bg-cover bg-center h-96 relative" style="background-image: url('Tobacco.jpg');">
+            <div class="absolute inset-0 flex items-center justify-center">
+                <h2 class="text-4xl md:text-5xl font-bold text-white">Premium Quality Tobacco Products</h2>
+            </div>
+        </section>
+
+        <div class="text-center text-black py-12">
+            <h2 class="text-4xl md:text-5xl font-bold mb-4">Premium Quality Tobacco Products</h2>
+            <p class="text-lg md:text-xl">Sourced from the finest farms across India</p>
+        </div>
+
+        <!-- About Us Section -->
+        <section id="about" class="py-12 bg-white">
+            <div class="container mx-auto text-center px-4">
+                <h2 class="text-3xl font-bold section-title mb-6">About Us</h2>
+                <p class="text-gray-700 leading-relaxed">We are one of the leading suppliers of high-quality tobacco products in India. With decades of experience, we ensure that our products meet the highest standards of quality and customer satisfaction.</p>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="py-12 bg-gray-100">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold section-title text-center mb-6">Our Products</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                    <div class="bg-white shadow-md rounded-lg overflow-hidden card">
+                        <img src="Pic-2.jpeg" alt="Tobacco Leaves" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h3 class="text-xl font-bold">Tobacco Leaves</h3>
+                            <p class="text-gray-600">High-quality sun-dried tobacco leaves.</p>
+                        </div>
+                    </div>
+                    <div class="bg-white shadow-md rounded-lg overflow-hidden card">
+                        <img src="Pic-5.jpeg" alt="Tobacco Bundles" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h3 class="text-xl font-bold">Tobacco Bundles</h3>
+                            <p class="text-gray-600">Finely ground tobacco powder for various uses.</p>
+                        </div>
+                    </div>
+                    <div class="bg-white shadow-md rounded-lg overflow-hidden card">
+                        <img src="Farm.png" alt="Tobacco Farm" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h3 class="text-xl font-bold">Tobacco Farm</h3>
+                            <p class="text-gray-600">Fresh volume of tobacco leaves from the Farm.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-12 bg-white">
+            <div class="container mx-auto text-center px-4">
+                <h2 class="text-3xl font-bold section-title mb-6">Contact Us</h2>
+                <p class="text-gray-700 mb-4">Have questions or need more information? Get in touch with us!</p>
+                <form class="max-w-lg mx-auto">
+                    <div class="mb-4">
+                        <input type="text" placeholder="Your Name" class="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-green-500">
+                    </div>
+                    <div class="mb-4">
+                        <input type="email" placeholder="Your Email" class="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-green-500">
+                    </div>
+                    <div class="mb-4">
+                        <textarea placeholder="Your Message" class="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-green-500"></textarea>
+                    </div>
+                    <button type="submit" class="bg-green-700 text-white py-2 px-4 rounded hover:bg-green-800 transition">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Phone Number Section -->
+        <section class="bg-gray-100 py-6">
+            <div class="container mx-auto text-center px-4">
+                <h2 class="text-2xl font-bold mb-4">Call Us</h2>
+                <p class="text-gray-700">For inquiries, call us at: <span class="font-bold">+91-9705046327</span></p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-green-700 text-white py-4">
+            <div class="container mx-auto text-center px-4">
+                <p>&copy; 2025 Indian Tobacco Suppliers. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const menu = document.getElementById('menu');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
